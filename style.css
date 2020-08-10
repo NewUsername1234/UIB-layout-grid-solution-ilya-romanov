@@ -26,22 +26,29 @@ section {
     text-shadow: 0px 0px 10px red;
 }
 
+
 section:nth-of-type(2) {
-    grid-column: span 2;
     background-color: #6b00ff;
+    grid-column: 2 / 4;
 }
+
 
 section:nth-of-type(6) {
-    grid-column: span 2;
     background-color: #009200;
+    grid-column: 3 / 5;
 }
 
-section:nth-of-type(8) {
-    grid-row: span 2;
+section:nth-of-type(9) {
     background-color: #fcb000;
+    grid-column: 2;
+    grid-row: 3 / 5;
 }
 
 section:nth-of-type(10) {
-    grid-row: span 2;
     background-color: #8a0081;
+    grid-column: 4;
+    grid-row: 3 / 5;
 }
+
+
+
